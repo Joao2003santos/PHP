@@ -18,7 +18,7 @@
             Login
         </legend>
 
-        <form action="" class="flex-col space-30" method="post">
+        <form action="back/login.php" class="flex-col space-30" method="post">
             <input type="text" name="login" placeholder="Login">
             <input type="password" name="senha" placeholder="Senha">
             <button class="button primary" type="submit">Entrar</button>
